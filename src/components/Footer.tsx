@@ -20,6 +20,8 @@ import Ride from './../assets/imgs/badges/ride.png';
 import Tour from './../assets/imgs/badges/tour.png';
 import Home from './../assets/imgs/badges/home.png';
 import Discount from './../assets/imgs/badges/discount.png';
+import Tiktok from './../assets/imgs/buttons/tiktok.png';
+import DiscordBtn from './../assets/imgs/buttons/discrod.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -190,27 +192,37 @@ export default function Footer() {
 
 
       <section className="px-6 md:px-14 lg:px-20 py-5 bg-[#1A1F37] ">
-        <div className="max-w-[1440px] mx-auto grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 items-center justify-between">
-          <div className="flex items-center justify-center md:justify-start">
-            <a href="" className="shrink-0">
+        <div className="max-w-[1440px] mx-auto grid xl:grid-cols-4 gap-5 items-center justify-between">
+          <div className="flex items-center justify-center md:justify-start xl:col-span-2 flex-wrap md:flex-nowrap">
+            <a href="https://x.com/culangex?s=11" className="shrink-0">
               <img src={TwitterBtn} alt="Twitter Icon" className="h-24 w-auto" />
             </a>
-            <a href="" className="shrink-0 -ms-5">
+            <a href="https://youtube.com/@culangex?feature=shared" className="shrink-0 -ms-5">
               <img src={YoutubeBtn} alt="Youtube Icon" className="h-24 w-auto" />
             </a>
-            <a href="" className="shrink-0 -ms-5">
+            <a href="https://www.linkedin.com/company/culangex/" className="shrink-0 -ms-5">
               <img
                 src={LinkedInBtn}
                 alt="LinkedIn Icon"
                 className="h-24 w-auto"
               />
             </a>
-            <a href="" className="shrink-0 -ms-5">
+            <a href="https://www.instagram.com/culangex?igsh=MTEycTlmMDVhMDNlNA==" className="shrink-0 -ms-5">
               <img
                 src={InstagramBtn}
                 alt="Instagram Icon"
                 className="h-24 w-auto"
               />
+            </a>
+            <a href="https://www.instagram.com/culangex?igsh=MTEycTlmMDVhMDNlNA==" className="shrink-0 -ms-5">
+              <img
+                src={Tiktok}
+                alt="Instagram Icon"
+                className="h-24 w-auto"
+              />
+            </a>
+            <a href="https://discord.gg/3h743uzb" className="shrink-0 -ms-5">
+              <img src={DiscordBtn} alt="Discord Icon" className="h-24 w-auto" />
             </a>
             <a
               href=""
